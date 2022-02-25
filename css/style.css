@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/kann.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image_link a {
+    background-color: #c5a994c9;
+    border: 2px solid #c5a994;
+    color: #65483a;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #343a45;
+    color: #808789;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('../img/valamine.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image_link a {
+    background-color: #3a3b4bce;
+    border: 2px solid #3a3b4b;
+    color: #caaf9e;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    background-color: #a78d7c;
+    color: #e7d3c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.quality-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/oad.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image_link a {
+    background-color: #a16c54b9;
+    border: 2px solid #a16c54b9;
+    color: #ddb2a0;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.origin-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.origin-text {
+    background-color: #805e51;
+    color: #cba08d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.origin-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 200px;
+    background-color: #64493e;
+    color: #998d7f;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem
+}
+
+.footer ul li a {
+    color: #998d7f;
+    text-decoration: none;
+}
+
+.footer ul li:hover a {
+    color: #d3c5b4;
+    /* transform: scale(1.3);*/
+}
